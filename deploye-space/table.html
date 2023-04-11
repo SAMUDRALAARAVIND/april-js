@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .middle {
+        margin: auto;
+        width: 60%;
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      .right {
+        text-align: right;
+      }
+
+      table {
+        border: 1px solid black;
+        border-spacing: 1px;
+      }
+
+      td {
+        padding: 1px;
+        border: 1px solid black;
+      }
+
+      .green {
+        background-color: green;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      #table-2 , #table-3{
+        margin-top: 20px;
+      }
+      #table-2 td, #table-3 td {
+        padding: 10px;
+      }
+
+    #t-image{
+        text-align: center;
+      }
+
+      .green {
+        background-color: green;
+      }
+      .blue{
+        background-color: blue ;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 style="text-align: center; margin : 0">HTML Assignment #3</h3>
+    <table id="table-1" class="middle">
+        <tr>
+            <td id="t11">left</td>
+            <td class="center" id="t12">center</td>
+            <td class="right" id="t13">right</td>
+        </tr>
+        <tr>
+            <td id="t11">left</td>
+            <td class="center" id="t12">center</td>
+            <td class="right" id="t13">right</td>
+        </tr>
+        <tr>
+            <td id="t11">left</td>
+            <td class="center" id="t12">center</td>
+            <td class="right" id="t13">right</td>
+        </tr>
+    </table>
+
+    <table id="table-2" class="middle">
+        <tr>
+            <td colspan="6" id="t21"></td>
+        </tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="6"></td>
+        </tr>
+    </table>
+
+    <table id="table-3" class="middle">
+        <tr class="green">
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding: 0;" id="t-image">
+                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="">
+            </td>
+        </tr>
+        <tr class="blue">
+            <td></td>
+        </tr>
+    </table>
+  </body>
+</html>
